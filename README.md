@@ -1,17 +1,18 @@
 # OddEven
 import java.util.Scanner;
 
-public class OddEven {
+public class P13_OddEven {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        int number = Integer.parseInt(scanner.nextLine());
+        double number = Double.parseDouble(scanner.nextLine());
 
-        if (number >=10) {
-            System.out.println("Number is bigger than 10");
-
-            if ( number % 2 == 0);
+        if (number % 2 == 0) {
+            System.out.println("Even");
+        }
+        else {
+            System.out.println("Odd");
         }
     }
 }
